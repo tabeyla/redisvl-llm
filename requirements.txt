@@ -1,0 +1,13 @@
+# Core packages
+redisvl
+sentence-transformers
+pandas
+nltk
+groq
+unstructured[pdf]
+langchain
+langchain-community
+tqdm
+
+# CPU-only PyTorch (pinned to official CPU wheels)
+torch --index-url https://download.pytorch.org/whl/cpu
